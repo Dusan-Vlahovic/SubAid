@@ -9,8 +9,8 @@ for (let i = 0; i < 100; i ++) {
 }
 
 const colors = {
-  green: {
-    50: '#f7fff7'
+  blue: {
+    50: '#8db9c9'
   },
   gray: {
     50: '#B5B5B5'
