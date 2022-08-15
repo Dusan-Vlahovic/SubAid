@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "fir-subaid-web-app"
+  },
+  "targets": {
+    "fir-subaid-web-app": {
+      "hosting": {
+        "subaid-web-app": [
+          "subaid-web-app"
+        ]
+      }
+    }
+  }
+}
