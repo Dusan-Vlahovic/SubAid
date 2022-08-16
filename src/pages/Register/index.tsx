@@ -1,13 +1,13 @@
 import React from "react";
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import { useHistory } from "react-router";
-import {Button} from "@mui/material";
-import {Link} from "react-router-dom";
+import { Button } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const Register = () => {
   const history = useHistory();
   const goToBack = () => {
-    history.back();
+    history.go(-1);
   }
 
   return (
@@ -70,6 +70,7 @@ const Register = () => {
                   padding: '1rem 0',
                   fontSize: '1.5rem',
                   fontWeight: 'bold',
+                  textTransform: 'unset',
                   ":hover" : {
                     backgroundColor: '#158fa4'
                   }
