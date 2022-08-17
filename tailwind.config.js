@@ -11,7 +11,10 @@ for (let i = 0; i < 100; i ++) {
 const colors = {
   blue: {
     50: '#8db9c9',
-    100: '#4aa6b7'
+    100: '#4aa6b7',
+    150: '#f6fafa',
+    200: '#dfedf1',
+    250: '#158fa4'
   },
   gray: {
     50: '#B5B5B5'
