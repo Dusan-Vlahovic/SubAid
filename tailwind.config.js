@@ -14,10 +14,12 @@ const colors = {
     100: '#4aa6b7',
     150: '#f6fafa',
     200: '#dfedf1',
-    250: '#158fa4'
+    250: '#158fa4',
   },
   gray: {
-    50: '#B5B5B5'
+    50: '#B5B5B5',
+    100: '#c2c1c1',
+    150: '#e8e9eb',
   }
 };
 
@@ -61,10 +63,7 @@ module.exports = {
         'zoom-in': 'zoomIn 150ms ease-in-out',
       },
       boxShadow: {
-        md: '0 3px 6px #00000029',
-        'blue-md': '0 0 0.75rem #2680eb57',
-        'blue-lg': '0 0.5rem 0.75rem 1px #2680eb57',
-        'modal-footer': '0 -3px 10px 1px #0004',
+        md: '0 0 5px #8db9c9',
       },
       gridTemplateColumns: {
         '1fr-auto': '1fr auto',
