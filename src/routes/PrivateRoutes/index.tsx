@@ -10,7 +10,6 @@ export const PrivateRoutes = () => {
       <Redirect path={ROUTES.LOGIN} to={ROUTES.DASHBOARD} />
       <FullLayout>
         <Route exact path={ROUTES.DASHBOARD} component={Dashboard} />
-        <Route exact path={ROUTES.DASHBOARD} component={Dashboard} />
       </FullLayout>
       <Redirect to={ROUTES.DASHBOARD} />
     </Switch>

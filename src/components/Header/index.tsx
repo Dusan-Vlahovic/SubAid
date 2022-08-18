@@ -11,13 +11,13 @@ const Header = () => {
           <input
             type="text"
             placeholder="Search"
-            className='w-full px-8 py-4 outline-none rounded-full bg-white text-black'
+            className='w-full px-8 py-2 outline-none rounded-full bg-white text-gray-200'
           />
         </div>
       </div>
       <div className='flex flex-col items-end align-right'>
         <div className='mb-8'>
-          <img src="./assets/images/logo.png" alt="Logo" className='w-72' />
+          <img src="./assets/images/logo.png" alt="Logo" className='w-60' />
         </div>
         <div className='text-lg text-gray-100'>{moment().format('dddd DD MMMM YYYY | HH:mm')} | Munich | 5 ̊C</div>
       </div>
