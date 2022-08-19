@@ -42,7 +42,7 @@ module.exports = {
       colors,
       borderColors: colors,
       fontFamily: {
-        primary: ['Montserrat', 'sans-serif'],
+        primary: ['sans-serif'],
       },
       spacing: spacings,
       minWidth: spacings,
